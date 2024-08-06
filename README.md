@@ -1,4 +1,4 @@
-# DREMVCL
+# CDPMF-DDA
 # Dependencies
 * python == 3.7.7    
 * pytorch == 1.7.1    
@@ -9,7 +9,7 @@
 # Installation Guide
 Clone this GitHub repo and set up a new conda environment.
 #  create a new conda environment
-* conda create -n dremvcl python=3.7.7
+* conda create -n CDPMF-DDA python=3.7.7
 * conda activate dremvcl
 #  install requried python dependencies
 * pip install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
@@ -21,7 +21,7 @@ Clone this GitHub repo and set up a new conda environment.
 * LRSSL https://github.com/linwang1982/DRIMC
 # Usage
 ```python  
-cd DREMVCL
+cd CDPMF-DDA
 python main.py 
 ```
 # Device
